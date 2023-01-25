@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <!-- encabezado/barra de navegación -->
+ 
+       <nav>
+         <ul> 
+           <li> 
+             <a href="../index.html">INICIO</a> 
+           </li>
+           <li>
+             <a href="contacto.html">CONTACTO</a> 
+           </li>
+           <li>
+             <a href="productos.html">PRODUCTOS</a> 
+           </li>
+           <li>
+             <a href="servicios.html">SERVICIOS</a> 
+           </li>
+           <li>
+             <a href="nosotros.html">NOSOTROS</a> 
+           </li>
+           <li>
+            <a href="https://www.coderhouse.com/" target="_blank">CODERHOUSE</a>
+           </li>
+           <li>
+            <a href="#pie">PIE DE PÁGINA</a>
+          </li>
+       
+         </ul>
+ 
+       </nav>
+     </header>
+
+    <form>
+        <label for="nombre_apellido">Ingrese Nombre y Apellido</label>
+        <input type="text" name="nombre_apellido" />
+        <br>
+        <label for="edad">Ingrese Edad</label>
+        <input type="number" name="edad" />
+        <br>
+        <label for="observaciones">Ingrese dudas</label>
+        <br>
+        <textarea type="text" name="observaciones"></textarea>
+        <br>
+
+
+        <input type="submit" value="Enviar info" />
+        <input type="reset" value="Borrar info" />
+      
+        
+
+        <div>Hombre</div>
+        <input type="radio" name="sexo" value="Hombre" />
+        <div>Mujer</div>
+        <input type="radio" name="sexo" value="Mujer" />
+        <br>
+
+        <select name="talles">
+
+            <option value="L">Large</option>
+            <option value="M">Medium</option>
+            <option value="S">Small</option>
+        </select>
+
+        <div>Acepta términos y condiciones</div>
+        <input type="checkbox" name="acepta" value="1" />
+        <br>
+        <input type="submit" value="Enviar info" />
+
+    </form>
+  
+
+    <footer  id="pie">
+     <h2>PIE DE PÁGINA</h2>
+     <h3>Redes Sociales</h3>
+    </footer>
+</body>
+
+</html>

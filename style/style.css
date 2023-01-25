@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Roboto&display=swap');
+
+
+div{
+    background-color: rgb(212,58,192);
+    padding:20px;
+    margin:10px;
+}
+
+.flexContainer{
+    height: 500px;
+    background-color: rgb(232,208,208);
+    padding:30px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap; 
+    justify-content: center ;
+    align-content: center;
+    
+}
